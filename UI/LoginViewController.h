@@ -25,5 +25,6 @@
 @property (nonatomic, strong) UIView *passwordView;
 @property (nonatomic, strong) UIButton *pulldownButton;
 @property (nonatomic, strong) UIButton *loginButton;
+@property (nonatomic, strong) UIScrollView *showHeadimage;
 
 @end
