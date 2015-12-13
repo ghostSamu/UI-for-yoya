@@ -1,23 +1,22 @@
 //
-//  MainViewController.m
-//  UI
+//  LoginViewController.m
+//  Yoya_ZX
 //
-//  Created by 许赞 on 15/12/10.
+//  Created by 许赞 on 15/12/13.
 //  Copyright © 2015年 许赞. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "LoginViewController.h"
 
-@interface MainViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"ok");
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

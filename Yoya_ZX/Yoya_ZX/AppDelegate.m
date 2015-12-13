@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  UI
+//  Yoya_ZX
 //
-//  Created by 许赞 on 15/12/10.
+//  Created by 许赞 on 15/12/13.
 //  Copyright © 2015年 许赞. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +19,11 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[LoginViewController alloc] init];
-    [self.window makeKeyAndVisible];
     
+    self.loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+
+    self.window.rootViewController = self.loginVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

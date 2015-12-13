@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F544ED1C1D1539000E1EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F544EC1C1D1539000E1EED /* main.m */; };
+		21F544F01C1D1539000E1EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F544EF1C1D1539000E1EED /* AppDelegate.m */; };
+		21F544F31C1D1539000E1EED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F544F21C1D1539000E1EED /* ViewController.m */; };
+		21F544F81C1D1539000E1EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F544F71C1D1539000E1EED /* Assets.xcassets */; };
+		21F545061C1D153A000E1EED /* Yoya_ZXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F545051C1D153A000E1EED /* Yoya_ZXTests.m */; };
+		21F545111C1D153A000E1EED /* Yoya_ZXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F545101C1D153A000E1EED /* Yoya_ZXUITests.m */; };
+		21F545221C1D1591000E1EED /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F545201C1D1591000E1EED /* LoginViewController.m */; };
+		21F545231C1D1591000E1EED /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F545211C1D1591000E1EED /* LoginViewController.xib */; };
+		21F545251C1D22A6000E1EED /* user-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F545241C1D22A6000E1EED /* user-header.png */; };
+		21F545271C1D3B29000E1EED /* icon-m-add-contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F545261C1D3B29000E1EED /* icon-m-add-contact.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F545021C1D153A000E1EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F544E01C1D1539000E1EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F544E71C1D1539000E1EED;
+			remoteInfo = Yoya_ZX;
+		};
+		21F5450D1C1D153A000E1EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F544E01C1D1539000E1EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F544E71C1D1539000E1EED;
+			remoteInfo = Yoya_ZX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F544E81C1D1539000E1EED /* Yoya_ZX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoya_ZX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F544EC1C1D1539000E1EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F544EE1C1D1539000E1EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F544EF1C1D1539000E1EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21F544F11C1D1539000E1EED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21F544F21C1D1539000E1EED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21F544F71C1D1539000E1EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F544FC1C1D1539000E1EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F545011C1D153A000E1EED /* Yoya_ZXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yoya_ZXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F545051C1D153A000E1EED /* Yoya_ZXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yoya_ZXTests.m; sourceTree = "<group>"; };
+		21F545071C1D153A000E1EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F5450C1C1D153A000E1EED /* Yoya_ZXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yoya_ZXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F545101C1D153A000E1EED /* Yoya_ZXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yoya_ZXUITests.m; sourceTree = "<group>"; };
+		21F545121C1D153A000E1EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F5451F1C1D1591000E1EED /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		21F545201C1D1591000E1EED /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		21F545211C1D1591000E1EED /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		21F545241C1D22A6000E1EED /* user-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-header.png"; sourceTree = "<group>"; };
+		21F545261C1D3B29000E1EED /* icon-m-add-contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-m-add-contact.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F544E51C1D1539000E1EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F544FE1C1D153A000E1EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F545091C1D153A000E1EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F544DF1C1D1539000E1EED = {
+			isa = PBXGroup;
+			children = (
+				21F544EA1C1D1539000E1EED /* Yoya_ZX */,
+				21F545041C1D153A000E1EED /* Yoya_ZXTests */,
+				21F5450F1C1D153A000E1EED /* Yoya_ZXUITests */,
+				21F544E91C1D1539000E1EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F544E91C1D1539000E1EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F544E81C1D1539000E1EED /* Yoya_ZX.app */,
+				21F545011C1D153A000E1EED /* Yoya_ZXTests.xctest */,
+				21F5450C1C1D153A000E1EED /* Yoya_ZXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F544EA1C1D1539000E1EED /* Yoya_ZX */ = {
+			isa = PBXGroup;
+			children = (
+				21F5451E1C1D1562000E1EED /* login */,
+				21F544EE1C1D1539000E1EED /* AppDelegate.h */,
+				21F544EF1C1D1539000E1EED /* AppDelegate.m */,
+				21F544F11C1D1539000E1EED /* ViewController.h */,
+				21F544F21C1D1539000E1EED /* ViewController.m */,
+				21F544F71C1D1539000E1EED /* Assets.xcassets */,
+				21F544FC1C1D1539000E1EED /* Info.plist */,
+				21F544EB1C1D1539000E1EED /* Supporting Files */,
+			);
+			path = Yoya_ZX;
+			sourceTree = "<group>";
+		};
+		21F544EB1C1D1539000E1EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F545261C1D3B29000E1EED /* icon-m-add-contact.png */,
+				21F545241C1D22A6000E1EED /* user-header.png */,
+				21F544EC1C1D1539000E1EED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21F545041C1D153A000E1EED /* Yoya_ZXTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F545051C1D153A000E1EED /* Yoya_ZXTests.m */,
+				21F545071C1D153A000E1EED /* Info.plist */,
+			);
+			path = Yoya_ZXTests;
+			sourceTree = "<group>";
+		};
+		21F5450F1C1D153A000E1EED /* Yoya_ZXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21F545101C1D153A000E1EED /* Yoya_ZXUITests.m */,
+				21F545121C1D153A000E1EED /* Info.plist */,
+			);
+			path = Yoya_ZXUITests;
+			sourceTree = "<group>";
+		};
+		21F5451E1C1D1562000E1EED /* login */ = {
+			isa = PBXGroup;
+			children = (
+				21F5451F1C1D1591000E1EED /* LoginViewController.h */,
+				21F545201C1D1591000E1EED /* LoginViewController.m */,
+				21F545211C1D1591000E1EED /* LoginViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F544E71C1D1539000E1EED /* Yoya_ZX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F545151C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZX" */;
+			buildPhases = (
+				21F544E41C1D1539000E1EED /* Sources */,
+				21F544E51C1D1539000E1EED /* Frameworks */,
+				21F544E61C1D1539000E1EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoya_ZX;
+			productName = Yoya_ZX;
+			productReference = 21F544E81C1D1539000E1EED /* Yoya_ZX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F545001C1D153A000E1EED /* Yoya_ZXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F545181C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZXTests" */;
+			buildPhases = (
+				21F544FD1C1D153A000E1EED /* Sources */,
+				21F544FE1C1D153A000E1EED /* Frameworks */,
+				21F544FF1C1D153A000E1EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F545031C1D153A000E1EED /* PBXTargetDependency */,
+			);
+			name = Yoya_ZXTests;
+			productName = Yoya_ZXTests;
+			productReference = 21F545011C1D153A000E1EED /* Yoya_ZXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21F5450B1C1D153A000E1EED /* Yoya_ZXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F5451B1C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZXUITests" */;
+			buildPhases = (
+				21F545081C1D153A000E1EED /* Sources */,
+				21F545091C1D153A000E1EED /* Frameworks */,
+				21F5450A1C1D153A000E1EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F5450E1C1D153A000E1EED /* PBXTargetDependency */,
+			);
+			name = Yoya_ZXUITests;
+			productName = Yoya_ZXUITests;
+			productReference = 21F5450C1C1D153A000E1EED /* Yoya_ZXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F544E01C1D1539000E1EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "许赞";
+				TargetAttributes = {
+					21F544E71C1D1539000E1EED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RNDXUJUB66;
+					};
+					21F545001C1D153A000E1EED = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21F544E71C1D1539000E1EED;
+					};
+					21F5450B1C1D153A000E1EED = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21F544E71C1D1539000E1EED;
+					};
+				};
+			};
+			buildConfigurationList = 21F544E31C1D1539000E1EED /* Build configuration list for PBXProject "Yoya_ZX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F544DF1C1D1539000E1EED;
+			productRefGroup = 21F544E91C1D1539000E1EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F544E71C1D1539000E1EED /* Yoya_ZX */,
+				21F545001C1D153A000E1EED /* Yoya_ZXTests */,
+				21F5450B1C1D153A000E1EED /* Yoya_ZXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F544E61C1D1539000E1EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F545231C1D1591000E1EED /* LoginViewController.xib in Resources */,
+				21F545251C1D22A6000E1EED /* user-header.png in Resources */,
+				21F544F81C1D1539000E1EED /* Assets.xcassets in Resources */,
+				21F545271C1D3B29000E1EED /* icon-m-add-contact.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F544FF1C1D153A000E1EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F5450A1C1D153A000E1EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F544E41C1D1539000E1EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F545221C1D1591000E1EED /* LoginViewController.m in Sources */,
+				21F544F31C1D1539000E1EED /* ViewController.m in Sources */,
+				21F544F01C1D1539000E1EED /* AppDelegate.m in Sources */,
+				21F544ED1C1D1539000E1EED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F544FD1C1D153A000E1EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F545061C1D153A000E1EED /* Yoya_ZXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F545081C1D153A000E1EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F545111C1D153A000E1EED /* Yoya_ZXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F545031C1D153A000E1EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F544E71C1D1539000E1EED /* Yoya_ZX */;
+			targetProxy = 21F545021C1D153A000E1EED /* PBXContainerItemProxy */;
+		};
+		21F5450E1C1D153A000E1EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F544E71C1D1539000E1EED /* Yoya_ZX */;
+			targetProxy = 21F5450D1C1D153A000E1EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21F545131C1D153A000E1EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F545141C1D153A000E1EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F545161C1D153A000E1EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: LEILEI 许 (48RBFZ4ZMP)";
+				INFOPLIST_FILE = Yoya_ZX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoya.zxue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c5963165-afca-47e3-be37-af4f45eee90c";
+			};
+			name = Debug;
+		};
+		21F545171C1D153A000E1EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: LEILEI 许 (48RBFZ4ZMP)";
+				INFOPLIST_FILE = Yoya_ZX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoya.zxue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c5963165-afca-47e3-be37-af4f45eee90c";
+			};
+			name = Release;
+		};
+		21F545191C1D153A000E1EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Yoya_ZXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoya.Yoya-ZXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoya_ZX.app/Yoya_ZX";
+			};
+			name = Debug;
+		};
+		21F5451A1C1D153A000E1EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Yoya_ZXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoya.Yoya-ZXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoya_ZX.app/Yoya_ZX";
+			};
+			name = Release;
+		};
+		21F5451C1C1D153A000E1EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Yoya_ZXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoya.Yoya-ZXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Yoya_ZX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21F5451D1C1D153A000E1EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Yoya_ZXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoya.Yoya-ZXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Yoya_ZX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F544E31C1D1539000E1EED /* Build configuration list for PBXProject "Yoya_ZX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F545131C1D153A000E1EED /* Debug */,
+				21F545141C1D153A000E1EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F545151C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F545161C1D153A000E1EED /* Debug */,
+				21F545171C1D153A000E1EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F545181C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F545191C1D153A000E1EED /* Debug */,
+				21F5451A1C1D153A000E1EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F5451B1C1D153A000E1EED /* Build configuration list for PBXNativeTarget "Yoya_ZXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F5451C1C1D153A000E1EED /* Debug */,
+				21F5451D1C1D153A000E1EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F544E01C1D1539000E1EED /* Project object */;
+}

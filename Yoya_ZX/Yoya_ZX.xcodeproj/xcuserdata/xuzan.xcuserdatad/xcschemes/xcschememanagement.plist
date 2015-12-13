@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UI.xcscheme</key>
+		<key>Yoya_ZX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21C21DFB1C1911EB00E980FF</key>
+		<key>21F544E71C1D1539000E1EED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>21C21E141C1911EB00E980FF</key>
+		<key>21F545001C1D153A000E1EED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>21C21E1F1C1911EB00E980FF</key>
+		<key>21F5450B1C1D153A000E1EED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

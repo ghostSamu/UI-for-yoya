@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C21DFB1C1911EB00E980FF"
-               BuildableName = "UI.app"
-               BlueprintName = "UI"
-               ReferencedContainer = "container:UI.xcodeproj">
+               BlueprintIdentifier = "21F544E71C1D1539000E1EED"
+               BuildableName = "Yoya_ZX.app"
+               BlueprintName = "Yoya_ZX"
+               ReferencedContainer = "container:Yoya_ZX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C21E141C1911EB00E980FF"
-               BuildableName = "UITests.xctest"
-               BlueprintName = "UITests"
-               ReferencedContainer = "container:UI.xcodeproj">
+               BlueprintIdentifier = "21F545001C1D153A000E1EED"
+               BuildableName = "Yoya_ZXTests.xctest"
+               BlueprintName = "Yoya_ZXTests"
+               ReferencedContainer = "container:Yoya_ZX.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21C21E1F1C1911EB00E980FF"
-               BuildableName = "UIUITests.xctest"
-               BlueprintName = "UIUITests"
-               ReferencedContainer = "container:UI.xcodeproj">
+               BlueprintIdentifier = "21F5450B1C1D153A000E1EED"
+               BuildableName = "Yoya_ZXUITests.xctest"
+               BlueprintName = "Yoya_ZXUITests"
+               ReferencedContainer = "container:Yoya_ZX.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C21DFB1C1911EB00E980FF"
-            BuildableName = "UI.app"
-            BlueprintName = "UI"
-            ReferencedContainer = "container:UI.xcodeproj">
+            BlueprintIdentifier = "21F544E71C1D1539000E1EED"
+            BuildableName = "Yoya_ZX.app"
+            BlueprintName = "Yoya_ZX"
+            ReferencedContainer = "container:Yoya_ZX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C21DFB1C1911EB00E980FF"
-            BuildableName = "UI.app"
-            BlueprintName = "UI"
-            ReferencedContainer = "container:UI.xcodeproj">
+            BlueprintIdentifier = "21F544E71C1D1539000E1EED"
+            BuildableName = "Yoya_ZX.app"
+            BlueprintName = "Yoya_ZX"
+            ReferencedContainer = "container:Yoya_ZX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21C21DFB1C1911EB00E980FF"
-            BuildableName = "UI.app"
-            BlueprintName = "UI"
-            ReferencedContainer = "container:UI.xcodeproj">
+            BlueprintIdentifier = "21F544E71C1D1539000E1EED"
+            BuildableName = "Yoya_ZX.app"
+            BlueprintName = "Yoya_ZX"
+            ReferencedContainer = "container:Yoya_ZX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
